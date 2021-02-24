@@ -32,7 +32,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 # General
-(CSS + jQuery) Carousel and container types as used by Netflix, Disney+, Amazon Video and more.
+Carousel and container types as used by Netflix, Disney+, Amazon Video and more.
+All with responsive design including mouse & touch handling.
+
+Made with Html, CSS and jQuery.
 
 - Slide Carousel,
 - Strip Carousel &
