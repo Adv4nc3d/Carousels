@@ -49,7 +49,7 @@ Main Includes:
 <link rel="stylesheet" href="/scripts/slide.css">
 ```
 
-HTML:
+HTML example:
 ```html
 <!-- Wrapper -->
 <div class="wrapper noselect">
@@ -62,9 +62,7 @@ HTML:
      <div class="slides">
        <div class="slide" id="slide1"><span class="title"></span></div>
        <div class="slide" id="slide2"><span class="title"></span></div>
-       <div class="slide" id="slide3"><span class="title"></span></div>
-       <div class="slide" id="slide4"><span class="title"></span></div>
-       <div class="slide" id="slide5"><span class="title"></span></div>
+       ...
      </div>
 
      <div class="auto-play">
