@@ -40,6 +40,12 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 # Slide-Carousel
+<!-- JS -->
+<script src="/scripts/slide.js"></script>
+
+<!-- CSS -->
+<link rel="stylesheet" href="/scripts/slide.css">
+
 
 
 # Strip-Carousel
