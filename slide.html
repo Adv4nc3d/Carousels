@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="de">
+  
+  <head>
+    <!-- Charset -->
+    <meta charset="utf-8">
+    
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title -->
+    <title>CSS Slide Carousel</title>
+    
+    <!-- jQuery Api -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/828184f452.js" crossorigin="anonymous"></script>
+    
+    <!-- JS -->
+    <script src="/scripts/slide.js"></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/scripts/slide.css">
+  </head>
+  
+  <body>
+    
+    <!-- Wrapper -->
+    <div class="wrapper noselect">
+
+      <!-- Slide Carousel -->
+      <div class="slide-carousel" id="one">
+        <div class="arrow-left">&lsaquo;</div>
+        <div class="arrow-right">&rsaquo;</div>
+
+        <div class="slides">
+          <div class="slide" id="slide1"><span class="title"></span></div>
+          <div class="slide" id="slide2"><span class="title"></span></div>
+          <div class="slide" id="slide3"><span class="title"></span></div>
+          <div class="slide" id="slide4"><span class="title"></span></div>
+          <div class="slide" id="slide5"><span class="title"></span></div>
+        </div>
+
+        <div class="auto-play">
+          <i class="fas fa-play" id="play-slider"></i>
+          <i class="fas fa-pause" id="pause-slider"></i>
+        </div>
+        <div class="dots"></div>
+      </div>
+    </div>
+    
+  </body>
+  
+</html>
