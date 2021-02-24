@@ -41,7 +41,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 # Slide-Carousel
 Main Includes:
-```
+```html
 <!-- JS -->
 <script src="/scripts/slide.js"></script>
 
@@ -50,7 +50,7 @@ Main Includes:
 ```
 
 HTML:
-```
+```html
 <!-- Wrapper -->
 <div class="wrapper noselect">
 
