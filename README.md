@@ -1,3 +1,4 @@
+# License
 BSD 3-Clause License
 
 Copyright (c) 2021, Adv4nc3d
@@ -30,7 +31,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 
-# carousels
+# General
 Carousel and container types as used by netflix, disney+ etc..
 
 - Strip Carousel,
@@ -38,10 +39,10 @@ Carousel and container types as used by netflix, disney+ etc..
 - Top Five
 
 
-# strip carousel
+# Strip-Carousel
 
 
-# slide carousel
+# Slide-Carousel
 
 
-# top five
+# Top Five
