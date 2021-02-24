@@ -40,12 +40,42 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 # Slide-Carousel
+Main Includes:
+```
 <!-- JS -->
 <script src="/scripts/slide.js"></script>
 
 <!-- CSS -->
 <link rel="stylesheet" href="/scripts/slide.css">
+```
 
+HTML:
+```
+<!-- Wrapper -->
+<div class="wrapper noselect">
+
+   <!-- Slide Carousel -->
+   <div class="slide-carousel" id="one">
+     <div class="arrow-left">&lsaquo;</div>
+     <div class="arrow-right">&rsaquo;</div>
+
+     <div class="slides">
+       <div class="slide" id="slide1"><span class="title"></span></div>
+       <div class="slide" id="slide2"><span class="title"></span></div>
+       <div class="slide" id="slide3"><span class="title"></span></div>
+       <div class="slide" id="slide4"><span class="title"></span></div>
+       <div class="slide" id="slide5"><span class="title"></span></div>
+     </div>
+
+     <div class="auto-play">
+       <i class="fas fa-play" id="play-slider"></i>
+       <i class="fas fa-pause" id="pause-slider"></i>
+     </div>
+     <div class="dots"></div>
+   </div>
+   
+</div>
+```
 
 
 # Strip-Carousel
