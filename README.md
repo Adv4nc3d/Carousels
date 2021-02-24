@@ -32,7 +32,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 # General
-(CSS + jQuery) Carousel and container types as used by netflix, disney+ etc..
+(CSS + jQuery) Carousel and container types as used by Netflix, Disney+, Amazon and more.
 
 - Strip Carousel,
 - Slide Carousel &
