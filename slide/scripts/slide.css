@@ -1,0 +1,319 @@
+/*
+
+  html, body
+
+*/
+
+/* Html, Body */
+html, body {
+  width: 100%;
+  height: 100%;
+  
+  margin: 0;
+  padding: 0;
+  
+  overflow: hidden;
+  
+  font-family: 'Cabin', sans-serif;
+  color: white;
+  
+  background: #181926;
+  background: -moz-radial-gradient(center, ellipse cover, #181926 0%, #0e0f17 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #181926 0%,#0e0f17 100%);
+  background: radial-gradient(ellipse at center, #181926 0%,#0e0f17 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#181926', endColorstr='#0e0f17',GradientType=1 );
+}
+
+/* No Select */
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+
+/*
+
+  Wrapper
+
+*/
+
+/* Wrapper */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  
+  overflow: hidden;
+}
+
+
+
+/*
+  
+  Responsive View
+
+*/
+
+/* Smartphones */
+@media only screen and (max-width:768px) {
+  .slide-carousel .slides .slide { height: 100%; flex: 0 0 calc(80% + 5px); transform: translateX(calc(-90% - 15px)); }
+  .slide-carousel .arrow-left, .slide-carousel .arrow-right { width: 10%; }
+  .slide-carousel .dots { right: calc(10% + 10px); bottom: 15px; }
+  .slide-carousel .auto-play { left: calc(5% + 30px); bottom: 10px; transform: scale(0.6); }
+}
+
+/* Tablets (potrait) */
+@media only screen and (min-width:768px) and (max-width:1024px) {
+  .slide-carousel .slides .slide { height: 100%; flex: 0 0 calc(90% + 5px); transform: translateX(calc(-95% - 15px)); }
+  .slide-carousel .arrow-left, .slide-carousel .arrow-right { width: 5%; }
+  .slide-carousel .dots { right: calc(5% + 10px); bottom: 20px; }
+  .slide-carousel .auto-play { left: calc(5% + 20px); bottom: 20px; }
+}
+
+/* Tablets (landscape) */
+@media only screen and (min-width:1024px) and (max-width:1440px) {
+  .slide-carousel .slides .slide { height: 100%; flex: 0 0 calc(90% + 5px); transform: translateX(calc(-95% - 15px)); }
+  .slide-carousel .arrow-left, .slide-carousel .arrow-right { width: 5%; }
+  .slide-carousel .dots { right: calc(5% + 10px); bottom: 20px; }
+  .slide-carousel .auto-play { left: calc(5% + 20px); bottom: 20px; }
+}
+
+/* Desktop and above */
+@media only screen and (min-width:1440px) {
+  .slide-carousel .slides .slide { height: 100%; flex: 0 0 calc(90% + 5px); transform: translateX(calc(-95% - 15px)); }
+  .slide-carousel .arrow-left, .slide-carousel .arrow-right { width: 5%; }
+  .slide-carousel .dots { right: calc(5% + 10px); bottom: 20px; }
+  .slide-carousel .auto-play { left: calc(5% + 20px); bottom: 20px; }
+}
+
+
+
+/*
+
+  Slide Carousel
+
+*/
+
+/* Slide Carousel */
+.slide-carousel {
+  width: 100%;
+  
+  height: 60%;
+  min-height: 400px;
+  
+  display: block;
+  position: relative;
+  
+  margin-top: 25px;
+  margin-bottom: 25px;
+  
+  overflow: hidden;
+}
+
+/* Slides Container */
+.slide-carousel .slides {
+  width: 100%;
+  height: 100%;
+  
+  display: flex;
+  position: relative;
+    
+  overflow: hidden;
+}
+
+/* Single Slide */
+.slide-carousel .slides .slide {
+  height: 100%;
+  
+  position: relative;
+  
+  border-radius: 8px;
+  margin-right: 20px;
+  
+  background: #292a36;
+  background: -moz-linear-gradient(top,  #292a36 0%, #1b1c25 100%);
+  background: -webkit-linear-gradient(top,  #292a36 0%,#1b1c25 100%);
+  background: linear-gradient(to bottom,  #292a36 0%,#1b1c25 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#292a36', endColorstr='#1b1c25',GradientType=0 );
+  
+  -webkit-box-shadow: 0px 10px 10px -7px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 10px 10px -7px rgba(0,0,0,1);
+  box-shadow: 0px 10px 10px -7px rgba(0,0,0,1);
+  
+  /*transform: translateX(calc(-95% - 12px));*/
+}
+
+.slide-carousel .slides .slide:hover {  
+  -webkit-box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,0.6), 0px 10px 10px -7px rgba(0,0,0,1);
+  -moz-box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,0.6), 0px 10px 10px -7px rgba(0,0,0,1);
+  box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,0.6), 0px 10px 10px -7px rgba(0,0,0,1);
+  
+  cursor: pointer;
+}
+
+
+
+/*
+
+  Slide Carousel Navigation Arrows
+
+*/
+
+/* Navigation Arrows */
+.slide-carousel .arrow-left,
+.slide-carousel .arrow-right {
+  display: inline-block;
+  position: absolute;
+
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 70px;
+  font-weight: 300;
+  color: white;
+
+  text-align: center;
+
+  z-index: 9999;
+}
+
+/* Navigation Arrow Left */
+.slide-carousel .arrow-left {
+  float: left;
+  left: 0;
+}
+
+/* Navigation Arrow Right */
+.slide-carousel .arrow-right {
+  float: right;
+  right: 0;
+}
+
+/* Navigation Arrow Left & Right Hover */
+.slide-carousel .arrow-left:hover , 
+.slide-carousel .arrow-right:hover {
+  cursor: pointer;
+}
+
+
+
+/*
+
+  Slide Carousel Navigation Dots
+
+*/
+
+/* Navigation Dots Container */
+.slide-carousel .dots {
+  height: 10px;
+  
+  display: inline-block;
+  position: absolute;
+  
+  z-index: 999;
+}
+
+/* Navigation Single Dot */
+.slide-carousel .dots .dot {
+  width: 10px;
+  height: 10px;
+  line-height: 10px;
+  
+  display: inline-block;
+  float: left;
+  
+  margin-right: 10px;
+  
+  border-radius: 50%;
+  
+  background-color: #4a4b50;
+}
+
+.slide-carousel .dots .dot:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.slide-carousel .slides .slide span.title {
+  width: 50%;
+  height: 100%;
+  
+  left: 200px;
+  
+  display: block;
+  position: relative;
+  
+  opacity: 0;
+}
+
+.layer {
+  background: transparent;
+}
+
+
+
+/*
+
+  Autoplay Button
+
+*/
+
+.slide-carousel .auto-play {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  
+  text-align: center;
+  
+  display: inline-bock;
+  position: absolute;
+}
+
+.slide-carousel .auto-play i {
+  width: 10px;
+  height: 10px;
+  line-height: 10px;
+  
+  font-size: 7px;
+  color: #f4f4f4;
+  
+  padding: 5px;
+  
+  transition: transform 0.8s;
+  
+  background-color: rgba(0,0,0,0.2);
+  
+  border: 3px solid #f4f4f4;
+  border-radius: 50%;
+}
+
+.slide-carousel .auto-play i:hover {
+  transform: scale(1.2);
+  
+  color: #fff;
+  border-color: #fff;
+  
+  cursor: pointer;
+}
+
+
+
+/*
+
+  Slide Images
+
+*/
+
+/* The Avengers */
+.slide-carousel .slides .slide#slide1 {
+  background: transparent url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/BD9863C722ADC01ED1F939A2DA558E6B5658CF4F8F3D5D25E52ED3B5035CE46F/scale?width=2880&aspectRatio=3.91&format=jpeg") no-repeat 50% 50% / cover;
+}
+
+.slide-carousel .slides .slide#slide1 .title {
+   background: transparent url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/339445E1E8DDB239B8C2359E4C12F62F9D5D39CF0BC5B9AEE9A4CE782AB51CE5/scale?width=2880&aspectRatio=3.91") no-repeat 0% 50% / cover;
+}
