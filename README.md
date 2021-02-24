@@ -1,5 +1,5 @@
 # carousels
-Carousel and container types as used by netflix, disney+ and many more.
+Carousel and container types as used by netflix, disney+ etc..
 
 - Strip Carousel,
 - Slide Carousel &
