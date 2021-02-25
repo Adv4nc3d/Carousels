@@ -32,9 +32,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 # General
-Carousel and container types as used by Netflix, Disney+, Amazon Video and more.
-All with responsive design including mouse & touch handling.
-
+Carousel and container types as used by Netflix, Disney+, Amazon Video and more.<br>
+All with responsive design including mouse and touch handling.<br>
 Made with Html, CSS and jQuery.
 
 - Slide Carousel,
@@ -128,6 +127,7 @@ HTML example:
 
 </div>
 ```
+
 
 # Top Five
 Main includes:
