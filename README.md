@@ -42,7 +42,7 @@ Made with Html, CSS and jQuery.
 
 
 # Slide-Carousel
-## Main includes:
+### Main includes:
 ```html
 <!-- JS -->
 <script src="/scripts/slide.js"></script>
@@ -51,7 +51,7 @@ Made with Html, CSS and jQuery.
 <link rel="stylesheet" href="/scripts/slide.css">
 ```
 
-## HTML example:
+### HTML example:
 ```html
 <!-- Wrapper -->
 <div class="wrapper noselect">
@@ -77,13 +77,13 @@ Made with Html, CSS and jQuery.
 </div>
 ```
 
-## Preview:
+### Preview:
 
 ![Alt text](/slide/images/slide_car.png?raw=true "Slide Carousel")
 
 
 # Strip-Carousel
-## Main includes:
+### Main includes:
 ```html
 <!-- JS -->
 <script src="/scripts/strip.js"></script>
@@ -92,7 +92,7 @@ Made with Html, CSS and jQuery.
 <link rel="stylesheet" href="/scripts/strip.css">
 ```
 
-## HTML example:
+### HTML example:
 ```html
 <!-- Wrapper -->
 <div class="wrapper noselect">
@@ -133,13 +133,13 @@ Made with Html, CSS and jQuery.
 ```
 
 
-## Preview:
+### Preview:
 
 ![Alt text](/strip/images/strip_car.png?raw=true "Strip Carousel")
 
 
 # Top Five
-## Main includes:
+### Main includes:
 ```html
  <!-- JS -->
  <script src="/scripts/topfive.js"></script>
@@ -148,7 +148,7 @@ Made with Html, CSS and jQuery.
  <link rel="stylesheet" href="/scripts/topfive.css">
 ```
 
-## HTML example:
+### HTML example:
 ```html
 <!-- Wrapper -->
 <div class="wrapper noselect">
@@ -188,7 +188,7 @@ Made with Html, CSS and jQuery.
 ```
 
 
-## Preview:
+### Preview:
 
 ![Alt text](/topfive/images/top_five.png?raw=true "Top Five")
 
