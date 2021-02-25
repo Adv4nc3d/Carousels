@@ -190,5 +190,5 @@ Made with Html, CSS and jQuery.
 
 ## Preview:
 
-![Alt text](/topfive/images/topfive.png?raw=true "Top Five")
+![Alt text](/topfive/images/top_five.png?raw=true "Top Five")
 
