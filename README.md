@@ -42,7 +42,7 @@ Made with Html, CSS and jQuery.
 
 
 # Slide-Carousel
-Main includes:
+## Main includes:
 ```html
 <!-- JS -->
 <script src="/scripts/slide.js"></script>
@@ -51,7 +51,7 @@ Main includes:
 <link rel="stylesheet" href="/scripts/slide.css">
 ```
 
-HTML example:
+## HTML example:
 ```html
 <!-- Wrapper -->
 <div class="wrapper noselect">
@@ -77,9 +77,13 @@ HTML example:
 </div>
 ```
 
+## Preview:
+
+![Alt text](/slide/images/slide_car.png?raw=true "Slide Carousel")
+
 
 # Strip-Carousel
-Main includes:
+## Main includes:
 ```html
 <!-- JS -->
 <script src="/scripts/strip.js"></script>
@@ -88,7 +92,7 @@ Main includes:
 <link rel="stylesheet" href="/scripts/strip.css">
 ```
 
-HTML example:
+## HTML example:
 ```html
 <!-- Wrapper -->
 <div class="wrapper noselect">
@@ -129,8 +133,13 @@ HTML example:
 ```
 
 
+## Preview:
+
+![Alt text](/strip/images/strip_car.png?raw=true "Strip Carousel")
+
+
 # Top Five
-Main includes:
+## Main includes:
 ```html
  <!-- JS -->
  <script src="/scripts/topfive.js"></script>
@@ -139,7 +148,7 @@ Main includes:
  <link rel="stylesheet" href="/scripts/topfive.css">
 ```
 
-HTML example:
+## HTML example:
 ```html
 <!-- Wrapper -->
 <div class="wrapper noselect">
@@ -177,4 +186,9 @@ HTML example:
 
 </div>
 ```
+
+
+## Preview:
+
+![Alt text](/topfive/images/topfive.png?raw=true "Top Five")
 
