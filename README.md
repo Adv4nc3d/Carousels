@@ -43,7 +43,7 @@ Made with Html, CSS and jQuery.
 
 
 # Slide-Carousel
-Main Includes:
+Main includes:
 ```html
 <!-- JS -->
 <script src="/scripts/slide.js"></script>
@@ -80,6 +80,100 @@ HTML example:
 
 
 # Strip-Carousel
+Main includes:
+```html
+<!-- JS -->
+<script src="/scripts/strip.js"></script>
 
+<!-- CSS -->
+<link rel="stylesheet" href="/scripts/strip.css">
+```
+
+HTML example:
+```html
+<!-- Wrapper -->
+<div class="wrapper noselect">
+
+   <!-- Strip Carousel (Most Viewed) -->
+   <span><a href="#">Most Viewed</a></span>
+   <div class="strip-carousel" id="mostviewed">
+     <div class="arrow-left">&lsaquo;</div>
+     <div class="arrow-right">&rsaquo;</div>
+
+     <div class="frames">
+       <a href="#"><div class="frame"></div></a>
+       <a href="#"><div class="frame"></div></a>
+       <a href="#"><div class="frame"></div></a>
+       <a href="#"><div class="frame"></div></a>
+       <a href="#"><div class="frame"></div></a>
+       ...
+     </div>
+   </div>
+
+   <!-- Strip Carousel (Top Ten) -->
+   <span><a href="#">Top Ten</a></span>
+   <div class="strip-carousel" id="topten">
+     <div class="arrow-left">&lsaquo;</div>
+     <div class="arrow-right">&rsaquo;</div>
+
+     <div class="frames">
+       <a href="#"><div class="frame"></div></a>
+       <a href="#"><div class="frame"></div></a>
+       <a href="#"><div class="frame"></div></a>
+       <a href="#"><div class="frame"></div></a>
+       <a href="#"><div class="frame"></div></a>
+       ...
+     </div>
+   </div>
+
+</div>
+```
 
 # Top Five
+Main includes:
+```html
+ <!-- JS -->
+ <script src="/scripts/topfive.js"></script>
+
+ <!-- CSS -->
+ <link rel="stylesheet" href="/scripts/topfive.css">
+```
+
+HTML example:
+```html
+<!-- Wrapper -->
+<div class="wrapper noselect">
+
+   <!-- Top Five -->
+   <div class="topfive">
+
+     <!-- 1. Marvel -->
+     <a href="#">
+       <div class="frame" id="topone">        
+         <img src="https://advanced-design.net/mgc/images/msf-logo.png" alt="marvel-logo">
+
+         <video id="marvel_bg" class="bgvideo" preload autoplay loop playsinline muted>
+           <source src="https://advanced-design.net/mgc/videos/marvel_bg.mp4" type="video/mp4">
+         </video>
+       </div>
+     </a>
+
+     <!-- 2. Star Wars -->
+     <a href="#">
+       <div class="frame" id="toptwo">
+         <img src="https://advanced-design.net/mgc/images/swgoh_logo.png" alt="starwars-logo">
+
+         <video id="starwars_bg" class="bgvideo" preload autoplay loop playsinline muted>
+           <source src="https://advanced-design.net/mgc/videos/swgoh.mp4" type="video/mp4">
+         </video>
+       </div>
+     </a>
+
+     <a href="#"><div class="frame" id="topthree"></div></a>
+     <a href="#"><div class="frame" id="topfour"></div></a>
+     <a href="#"><div class="frame" id="topfive"></div></a>
+   </div>
+   <!-- end of Top Five -->
+
+</div>
+```
