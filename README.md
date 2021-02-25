@@ -177,3 +177,10 @@ HTML example:
 
 </div>
 ```
+
+
+
+$(document).ready(function()
+{
+   alert("Hello World");
+});
